@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technobytes</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/data.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
@@ -25,12 +28,12 @@
                 <h2 class="no-margin small-caps">Rank Holders</h2>
                 <div class="rank-holder">
                     <img src="assets/user.png">
-                    <p>Ms. Leena K S <br />
+                    <p>Ms. Leena K S <br class="no-margin" />
                         1<sup>st</sup> Rank</p>
                 </div>
                 <div class="rank-holder">
                     <img src="assets/user.png">
-                    <p>Ms. Jaishree <br /> 2<sup>nd</sup> Rank</p>
+                    <p>Ms. Jaishree <br class="no-margin"/> 2<sup>nd</sup> Rank</p>
                 </div>
             </div>
             <div class="image-text"><img src="assets/user.png"> John Doe, <br class="no-margin"/> Artist at John's Organisation </div>
@@ -56,9 +59,9 @@
         </div>
     </section>
 
-    <section >
+    <section>
         <div class="image-text">
-            <img src="assets/user.png">
+            <img src="assets/People/frAugustine.jpg">
             <p>Rev. Dr. Augustine George, <br class="no-margin"/> Principal</p>
         </div>
         <h1 class="small-caps">Principal's Message</h1>
@@ -110,23 +113,23 @@
             <br />
         </p>
     </section>
-
+<!-- 
     <section>
-        <!-- Events -->
+        Events
     </section>
 
     <section>
-        <!-- Student Research -->
+        Student Research
     </section>
 
     <section>
-        <!-- Seminar Workshops -->
-    </section>
+        Seminar Workshops
+    </section> -->
 
     <section>
         <h1 class="small-caps">Vinimay - Leadership Series</h1>
         <div class="image-text left">
-            <img src="assets/Vinimay/img3.jpg">
+            <img src="assets/Vinimay/img3.jpg" onclick="openGallery('Vinimay')">
             <p class="no-margin">Dr. Gopichand Katragadda, CEO of Mylin Foundry</p>
         </div>
         <p class="content-text">
@@ -136,8 +139,92 @@
         </p>
     </section>
 
-    <footer>
+    <section>
+        <h1 class="small-caps">Faculty Publications</h1>
+        <h3 class="small-caps">Dr. Ambika P</h3>
+        <ul>
+            <li>Authored the book “Cases on Edge Computing and Analytics” published by IGI</li>
+            <li>Penned a chapter on “Machine Learning and Deep Learning algorithms on the Industrial Internet of Things (IOT)” published by The Digital Twin Paradigm for Smarter Systems & Environments: the Industry Use Cases</li>
+            <li>Researched articles on “Environment Air Pollution Monitoring system using ROOF Computing”, “Book - Cases on Edge Computing and Analytics”, “The best of village head performance: Simple additive weighting method” by the publishers Journal of Green Engineering, ISSN: 1904-4720 River Publications, IGI, International Journal of Recent Technology and Engineering (IJRTE), Blue Eyes Intelligence Engineering & Sciences respectively.</li>
+        </ul>
+        <h3 class="small-caps">Ms. Vani C</h3>
+        <ul>
+            <li>Co-authored the book “Analysis and Modelling of Vocal tract & Emotional Speech” published by Lambert Academic Publishing</li>
+            <li>Researched articles on “A Survey Paper on Learning Disability prediction using Machine Learning” and “Machine learning algorithms for prediction of Dyslexia using eye movement “ by the publishers International Journal of Information and Computing Science and iopscience.iop.org Journal of Physics - Conference series </li>
+        </ul>
+        <h3 class="small-caps">Dr. Velmurugan R</h3>
+        <ul>
+            <li>Penned a chapter on “Edge Computing and IoT Technologies for Medical Applications: A Case Study on Health Care Monitoring – Chapter approved after Revision I” published by IGI Global Publisher of Timely Knowledge (Free Publication & Scopus Indexed).</li>
+            <li>Researched articles on “Genomics and Machine Learning” published by International Journal of Engineering and Advanced Technology (IJEAT)</li>
+        </ul>
+        <h3 class="small-caps">Dr. Muruganantham A</h3>
+        <ul>
+            <li>Penned a chapter on “Edge Computing and IoT Technologies for Medical Applications: A Case Study on Health Care Monitoring – Chapter approved after Revision I” published by IGI Global Publisher of Timely Knowledge (Free Publication & Scopus Indexed)</li>
+            <li>Researched articles on “Big Data Analytics and Intelligence: A Perspective for Health Care” and “Smart Airline Baggage Tracking and Theft Prevention with Blockchain Technology” published by International Journal of Engineering and Advanced Technology (IJEAT)and Test Engineering and Management</li>
+        </ul>
+        <h3 class="small-caps">Dr. R. Kumar</h3>
+        <ul>
+            <li>Penned a chapter on “Edge Computing and IoT Technologies for Medical Applications: A Case Study on Health Care Monitoring” published by IGI Global Publisher of Timely Knowledge (Free Publication & Scopus Indexed)</li>
+            <li>Researched articles on “Green World: Green Internet of Things (G-Iot) Covering Technologies For Smart Environment and as a Scientific Enabler of Green Develpoment”, “Into the Furniture Woods: Analytical Hierarchy Process Method”, “Forecasting Through Motif Discovered by Particle Swarm Optimization Algorithm” and “Environment Air Pollution Monitoring system using ROOF Computing” published by “International Journal of Researh and Analytical Reviews (IJRAR)”, “International Journal of Recent Technology and Engineering(IJRTE)”, “International Journal of Future Generation Communication and Networking” and “Journal of Green Engineering, ISSN: 1904-4720 River Publications” respectively</li>
+        </ul>
+        <h3 class="small-caps">Dr. Jyothi Manoj</h3>
+        <ul>
+            <li>Researched an article on “Application of Markov Process for Prediction of Stock Market Performance” published by International Journal of Recent Technology and Engineering(IJRTE)</li>
+        </ul>
+        <h3 class="small-caps">Prof. Aruna Devi K</h3>
+        <ul>
+            <li>Researched an article on “Improved Blog Classification using Multistage Dimensionality Reduction Technique” published by Advances in Intelligent Systems and Computing Series, Springer</li>
+        </ul>
+    </section>
 
+    <section>
+        <h1 class="small-caps">Gallery - Department Activities</h1>
+        <div class="view-gallery">
+            <h3 style="text-align: center;" onclick="openGallery('Activities');">Click here to view the gallery.</h3>
+        </div>
+    </section>
+
+    <!-- <section>
+        <h1 class="small-caps">Upcoming Events</h1>
+    </section>
+
+    <section>
+        <h1 class="small-caps">Placements</h1>
+    </section> -->
+
+    <div class="gallery-back">
+        <svg viewBox="0 0 448 512" class="close-gallery">
+            <g>
+                <path fill="#000" 
+                    d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-54.4 289.1a12 12 0 0 1 0 17L306 377.6a12 12 0 0 1-17 0L224 312l-65.1 65.6a12 12 0 0 1-17 0L102.4 338a12 12 0 0 1 0-17l65.6-65-65.6-65.1a12 12 0 0 1 0-17l39.6-39.6a12 12 0 0 1 17 0l65 65.7 65.1-65.6a12 12 0 0 1 17 0l39.6 39.6a12 12 0 0 1 0 17L280 256z">
+                </path>
+                <path fill="#fff" d="M102.4 190.9a12 12 0 0 1 0-17l39.6-39.6a12 12 0 0 1 17 0l65 65.7 65.1-65.6a12 12 0 0 1 17 0l39.6 39.6a12 12 0 0 1 0 17L280 256l65.6 65.1a12 12 0 0 1 0 17L306 377.6a12 12 0 0 1-17 0L224 312l-65.1 65.6a12 12 0 0 1-17 0L102.4 338a12 12 0 0 1 0-17l65.6-65z">
+                </path>
+            </g>
+        </svg>
+        <svg viewBox="0 0 256 512" class="left-button">
+            <path fill="currentColor" d="M231.293 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L70.393 256 251.092 74.87c4.686-4.686 4.686-12.284 0-16.971L231.293 38.1c-4.686-4.686-12.284-4.686-16.971 0L4.908 247.515c-4.686 4.686-4.686 12.284 0 16.971L214.322 473.9c4.687 4.686 12.285 4.686 16.971-.001z"></path>
+        </svg>
+        <svg viewBox="0 0 256 512" class="right-button">
+            <path fill="currentColor" d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"></path>
+        </svg>
+        <div class="gallery-view">
+            <img class="image-canvas">
+        </div>
+    </div>
+
+    <footer>
+        <h1 class="small-caps" style="text-align: center;">Edutorial Board</h1>
+        <div style="display: inline-flex;">
+            <div class="image-text" style="float: none;">
+                <img src="assets/People/Bhavana.jpg" style="height: 200px; object-fit: contain;">
+                <p>Ms Bhavana N <br class="no-margin"/> II Sem MCA</p>
+            </div>
+            <div class="image-text" style="float: none;">
+                <img src="assets/People/nikhil.jpg" style="height: 200px; object-fit: contain;">
+                <p>Mr Nikhil Hari<br class="no-margin"/> III Sem MSc CS</p>
+            </div>
+        </div>
     </footer>
 </body>
 
