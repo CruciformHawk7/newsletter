@@ -4,9 +4,11 @@ var thisdata;
 
 var openGallery = (selection) => {
     $('.gallery-back').fadeIn();
+    currentPoint = 0;
     thisdata = data[selection];
     size = thisdata.length;
-    currentPoint = 0;
+    $('.right-button').fadeIn();
+    $('.left-button').fadeIn();
     updateImage();
 };
 

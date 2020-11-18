@@ -47,10 +47,11 @@ header > div {
     padding: 10px;
     width: 150px;
     height: 150px;
+    justify-content: center;
 }
 
 section {
-    margin: 0 10vw;
+    margin: 0 2vw;
 }
 
 .workshop-ranks {
@@ -67,6 +68,10 @@ section {
     text-align: center;
     width: 200px;
     margin: 10px 10px;
+}
+
+.image-text > img {
+    object-fit: contain;
 }
 
 .rank-holders {
@@ -111,6 +116,7 @@ section {
     left: 0;
     background: #000c;
     z-index: 100;
+    user-select: none;
 }
 
 .gallery-view {
@@ -141,6 +147,7 @@ section {
     top: 50%;
     transform: translateY(-50%);
     z-index: 250;
+    cursor: pointer;
 }
 
 .right-button {
@@ -150,6 +157,7 @@ section {
     top: 50%;
     transform: translateY(-50%);
     z-index: 250;
+    cursor: pointer;
 }
 
 .image-canvas {
