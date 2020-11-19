@@ -53,6 +53,7 @@ header {
     font-family: 'Stencil', sans-serif;
     font-variant: small-caps;
     font-size: 64px;
+    text-shadow: 2px 2px 4px #4386b4;
 }
 
 header>div {
@@ -88,9 +89,9 @@ section {
     flex-direction: column;
     float: left;
     align-items: center;
-    width: 25vw;
-    min-width: 200px;
-    max-width: 250px;
+    width: 12vw;
+    min-width: 150px;
+    max-width: 180px;
     border: 1px solid #aaa;
     border-radius: 5px;
     margin-right: 20px;
@@ -102,18 +103,19 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    min-width: 200px;
-    width: 32vw;
+    min-width: 170px;
+    width: 24vw;
 }
 
 .rank-holder>img {
-    height: 200px;
+    height: 150px;
     object-fit: contain;
 }
 
 .content-text {
     text-align: justify;
     text-justify: inter-word;
+    column-count: 1;
 }
 
 .gallery-back {
@@ -256,5 +258,20 @@ th {
     }
     .left {
         float: left;
+    }
+    .content-text {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .content-text {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-text {
+        column-count: 4;
     }
 }
