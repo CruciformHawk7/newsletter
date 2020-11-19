@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans&display=swap');
-
 * {
     font-family: 'Work Sans', 'SF Pro', 'Segoe UI', sans-serif;
     color: #fff;
 }
 
-html, body, .no-margin {
+html,
+body,
+.no-margin {
     padding: 0;
     margin: 0;
 }
-
 
 body {
     display: flex;
@@ -17,7 +17,14 @@ body {
     background-color: #000008;
 }
 
-h1, h2, h3, h4, h5, h6, .heading, th {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+th {
     font-family: 'Raleway', 'Helvetica', serif;
 }
 
@@ -44,7 +51,7 @@ header {
     font-size: 64px;
 }
 
-header > div {
+header>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,8 +84,9 @@ section {
     margin: 10px 10px;
 }
 
-.image-text > img {
+.image-text>img {
     object-fit: contain;
+    width: 200px;
 }
 
 .rank-holders {
@@ -178,7 +186,7 @@ section {
     z-index: 300;
 }
 
-.open-zoom{
+.open-zoom {
     cursor: zoom-in;
 }
 
@@ -195,7 +203,7 @@ table {
     border-collapse: collapse;
     border: 1px solid #000;
     text-align: center;
-    overflow-x:scroll;
+    overflow-x: scroll;
 }
 
 tr {
@@ -207,11 +215,14 @@ tr:nth-child(1) {
     color: #fff;
 }
 
-tr:nth-child(2), tr:nth-child(3), .odd {
+tr:nth-child(2),
+tr:nth-child(3),
+.odd {
     background-color: #111;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #ccc;
     padding: 8px 0;
 }
@@ -224,5 +235,4 @@ td, th {
         width: 60vw;
         padding: 30px 10vw 0 10vw;
     }
-  }
-
+}
