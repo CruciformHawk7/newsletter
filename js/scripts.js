@@ -12,6 +12,13 @@ var openGallery = (selection) => {
     updateImage();
 };
 
+var zoom = (asset) => {
+    $('.left-button').fadeOut();
+    $('.right-button').fadeOut();
+    $('.image-canvas').attr('src', asset);
+    $('.gallery-back').fadeIn();
+};
+
 var updateImage = () => {
     $('.image-canvas').attr('src', thisdata[currentPoint]);
     if (currentPoint == 0) 
