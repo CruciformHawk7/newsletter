@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Work Sans', 'SF Pro', 'Segoe UI', sans-serif;
+    color: #fff;
 }
 
 html, body, .no-margin {
@@ -9,16 +10,22 @@ html, body, .no-margin {
     margin: 0;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
-    background: url('../assets/bg.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
+    background-color: #000008;
 }
 
 h1, h2, h3, h4, h5, h6, .heading, th {
     font-family: 'Raleway', 'Helvetica', serif;
+}
+
+.head {
+    background: linear-gradient(to right, #f15a24, #ed1e79 60%, #ed1e7900);
+    border-radius: 5px;
+    padding: 6px 0;
+    width: 60vw;
 }
 
 header {
@@ -82,7 +89,7 @@ section {
     width: 35vw;
     min-width: 280px;
     max-width: 320px;
-    border: 1px solid #000;
+    border: 1px solid #aaa;
     border-radius: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -128,7 +135,7 @@ section {
     transform: translate(-50%, -50%);
     border-radius: 10px;
     z-index: 200;
-    background: #fff;
+    background: #111;
 }
 
 .close-gallery {
@@ -192,19 +199,19 @@ table {
 }
 
 tr {
-    background-color: #eee;
+    background-color: #222;
 }
 
 tr:nth-child(1) {
-    background-color: darkslategray;
+    background: linear-gradient(to right, #f15a24, #ed1e79);
     color: #fff;
 }
 
 tr:nth-child(2), tr:nth-child(3), .odd {
-    background-color: #ddd;
+    background-color: #111;
 }
 
-td {
+td, th {
     border: 1px solid #ccc;
     padding: 8px 0;
 }
