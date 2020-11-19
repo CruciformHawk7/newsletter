@@ -214,6 +214,51 @@ tr {
     background-color: #222;
 }
 
+
+/* strong {
+    display: block;
+    position: relative;
+    line-height: 1.1;
+}
+
+strong::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-08.fc201d70f76b.svg');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.zap2::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-01.c848204b3a2e.svg');
+}
+
+.zap3::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-14.59889e9bbc67.svg');
+}
+
+.zap4::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-16.fe39cc0d310d.svg');
+}
+
+.zap5::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-09.bc0c0b72fdaf.svg');
+}
+
+.zap6::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-10.3ec60d019421.svg');
+}
+
+.zap7::after {
+    background-image: url('https://www.mozilla.org/media/protocol/img/zaps/zap-11.b89f1adfc49b.svg');
+} */
+
 tr:nth-child(1) {
     background: linear-gradient(to right, #f15a24, #ed1e79);
     color: #fff;
@@ -266,6 +311,7 @@ th {
     }
     .image-text {
         float: right;
+        clear: right;
         display: flex;
         flex-direction: column;
         word-wrap: normal;
@@ -275,6 +321,7 @@ th {
     }
     .left {
         float: left;
+        clear: right;
     }
     .content-text {
         column-count: 2;
