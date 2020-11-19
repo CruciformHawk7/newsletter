@@ -198,7 +198,6 @@ br {
 table {
     border-collapse: collapse;
     border: 1px solid #000;
-    text-align: center;
     overflow-x: scroll;
 }
 
@@ -215,6 +214,18 @@ tr:nth-child(2),
 tr:nth-child(3),
 .odd {
     background-color: #111;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+.start>td:nth-child(1) {
+    text-align: center;
 }
 
 td,
