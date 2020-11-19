@@ -13,10 +13,10 @@
 <body>
     <header>
         <div class="col-left">
-            <img src="assets/technobytes.svg" style="filter: invert(1);">
+            <img src="assets/technobytes.svg" style="filter: invert(1); min-width: 100px">
         </div>
         <div class="col-right">
-            <img src="assets/logo2.png" style="filter: invert(1);" height="80px">
+            <img src="assets/logo2.png" style="filter: invert(1); min-width: 100px" height="80px">
             <h1 class="technobytes-logo no-margin">Technobytes</h1>
         </div>
     </header>
@@ -70,7 +70,7 @@
             <img src="assets/People/frAugustine.jpg">
             <p>Rev. Dr. Augustine George, <br class="no-margin" /> Principal</p>
         </div>
-        <p class="no-margin text-content">
+        <p class="no-margin content-text">
             Prominence of Information Technology in daily life has become inevitable than ever before. We are living in Technological era. We have seen the effects of the Agricultural era and industrial revolution. Now we are going through the Technological revolution.
             Education plays a major role in the pursuit of an important goal which is to be update and a leader in this world of technology. Online learning is the future of education. Advances in technology allow students to study entirely online while
             still socializing with classmates, watching lectures and participating in subject specific discussions. We are blessed as even in this pandemic we can impart knowledge and leverage the skills of students. Students not only attend lectures,
@@ -91,7 +91,7 @@
             <img src="assets/People/drCalistus.jpg">
             <p>Dr. Calistus Jude A.L., <br class="no-margin" />Dean Faculty of Sciences</p>
         </div>
-        <p class="no-margin text-content">
+        <p class="no-margin content-text">
             Computing and Information technology allows the organizations to work more efficiently and to maximize productivity. It is cliché that computing keeps on changing our world. The Department of Computer Science (PG) is indulged in exploring, mining and
             communicating this revoltion of computing among the student community and the academic fraternity. The academic year 2019-2020 was packed with curricular and co-curricular acticities. The current edition of Technobytes is brought out to highlight
             the activities of Deppartment of Computer Science (PG) and the dynamism of its academic community. From displaying talent on various arenas to voicing out hypothesis on current patterns through online platforms, this edition of Technobytes
@@ -106,7 +106,7 @@
             <img src="assets/People/drKumar.jpg">
             <p>Dr. R. Kumar, <br class="no-margin" /> Head, Department of Computer Science (PG)</p>
         </div>
-        <p class="no-margin text-content">
+        <p class="no-margin content-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur quam ut viverra varius. Cras enim felis, tempus a nisl dictum, ullamcorper suscipit ante. Fusce laoreet consequat maximus. Donec vulputate lectus at laoreet laoreet. Ut luctus
             suscipit commodo. Nam molestie enim vel urna porttitor dictum. In at vehicula ante. Aliquam erat volutpat. Nullam sed libero ac urna posuere dapibus sit amet eget dolor. Pellentesque vehicula orci at mauris volutpat, vel posuere ex mattis.
             <br /> Maecenas eget metus vehicula, efficitur tortor eget, maximus magna. Donec vitae neque congue, ullamcorper nisl nec, mollis dui. Ut bibendum nisl pulvinar, ultricies leo commodo, feugiat massa. Fusce commodo diam ipsum. Etiam pretium
@@ -127,16 +127,16 @@
             <img src="assets/cert.jpg" class="open-zoom" onclick="zoom('assets/cert.jpg');">
             <p></p>
         </div>
-        <p class="no-margin text-content">Dr. Muruganantham Alagiah received the “Teacher Innovation Award” by Sri Aurobindo Society for sustainable efforts towards promoting joyful and experiential learning. </p>
+        <p class="no-margin content-text">Dr. Muruganantham Alagiah received the “Teacher Innovation Award” by Sri Aurobindo Society for sustainable efforts towards promoting joyful and experiential learning. </p>
     </section>
 
     <section>
         <h1 class="small-caps head">Events</h1>
+        <h3 class="head">8th International Conference on Current Trends in Advanced Computing ICCTAC ’20</h3>
         <div class="image-text">
             <img src="assets/Events/currTrends.jpg" class="open-zoom" onclick="zoom('assets/Events/currTrends.jpg')">
             <p></p>
         </div>
-        <h3 class="head">8th International Conference on Current Trends in Advanced Computing ICCTAC ’20</h3>
         <p class="content-text">
             The Department of Computer Science (PG), Kristu Jayanti College organized the 8th edition of the International Conference on Current Trends in Advanced Computing on 6th and 7th May 2020 through an Online Conference. The Department of Computer Science
             (PG) understood the unprecedented situation existing because of the COVID-19 pandemic outbreak and thought on its feet and moved the conference to the online platform. The original conference dates were March 19th and 20th and all necessary
@@ -463,11 +463,17 @@
 
     <div class="gallery-back">
         <svg viewBox="0 0 448 512" class="close-gallery">
+            <defs>
+                <linearGradient id="close-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#eee;stop-opacity:1" />
+                  </linearGradient>
+            </defs>
             <g>
-                <path fill="#000" 
+                <path fill="url(#close-bg)" 
                     d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-54.4 289.1a12 12 0 0 1 0 17L306 377.6a12 12 0 0 1-17 0L224 312l-65.1 65.6a12 12 0 0 1-17 0L102.4 338a12 12 0 0 1 0-17l65.6-65-65.6-65.1a12 12 0 0 1 0-17l39.6-39.6a12 12 0 0 1 17 0l65 65.7 65.1-65.6a12 12 0 0 1 17 0l39.6 39.6a12 12 0 0 1 0 17L280 256z">
                 </path>
-                <path fill="#fff" d="M102.4 190.9a12 12 0 0 1 0-17l39.6-39.6a12 12 0 0 1 17 0l65 65.7 65.1-65.6a12 12 0 0 1 17 0l39.6 39.6a12 12 0 0 1 0 17L280 256l65.6 65.1a12 12 0 0 1 0 17L306 377.6a12 12 0 0 1-17 0L224 312l-65.1 65.6a12 12 0 0 1-17 0L102.4 338a12 12 0 0 1 0-17l65.6-65z">
+                <path fill="#000" d="M102.4 190.9a12 12 0 0 1 0-17l39.6-39.6a12 12 0 0 1 17 0l65 65.7 65.1-65.6a12 12 0 0 1 17 0l39.6 39.6a12 12 0 0 1 0 17L280 256l65.6 65.1a12 12 0 0 1 0 17L306 377.6a12 12 0 0 1-17 0L224 312l-65.1 65.6a12 12 0 0 1-17 0L102.4 338a12 12 0 0 1 0-17l65.6-65z">
                 </path>
             </g>
         </svg>
@@ -484,7 +490,7 @@
 
     <footer style="align-self: center;">
         <h1 class="small-caps head" style="text-align: center;">Edutorial Board</h1>
-        <div style="display: flex; flex-direction: row; align-items: center;">
+        <div style="display: flex; flex-direction: row; align-items: center;" class="field">
             <h2 style="writing-mode: vertical-lr;text-orientation: mixed;">Staff Editors</h2>
             <div style="display: inline-flex;">
                 <div class="image-text" style="float: none;">
