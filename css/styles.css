@@ -239,6 +239,19 @@ th {
     padding: 8px 0;
 }
 
+.grow-shrink {
+    animation: transformplay 2s ease infinite alternate;
+}
+
+@keyframes transformplay {
+    0% {
+        transform: scale(1.0) rotate(-20deg);
+    }
+    100% {
+        transform: scale(1.1) rotate(-22deg);
+    }
+}
+
 @media only screen and (min-width: 600px) {
     header {
         display: flex;
