@@ -301,7 +301,7 @@ th {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     header {
         display: flex;
         flex-direction: row;
@@ -325,17 +325,5 @@ th {
     }
     .content-text {
         column-count: 2;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .content-text {
-        column-count: 3;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .content-text {
-        column-count: 4;
     }
 }
